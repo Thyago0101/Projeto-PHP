@@ -5,7 +5,7 @@ if(!isset($_SESSION["email"])) {
     header("Location: index.html");
     exit();
 }
-
+echo "olá";
 echo "ID: ". $_SESSION["id"];
 echo "Nome: ". $_SESSION["nome"];
 echo "Data de nascimento: ". $_SESSION["dn"];
